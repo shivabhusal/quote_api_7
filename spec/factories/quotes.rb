@@ -10,7 +10,7 @@
 #
 FactoryBot.define do
   factory :quote do
-    title { "MyString" }
-    author { "MyString" }
+    title { "Here is a Quote" }
+    author { "Author" }
   end
 end
