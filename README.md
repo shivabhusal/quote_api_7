@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/897617cf52216be01c72/maintainability)](https://codeclimate.com/github/shivabhusal/quote_api_7/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/897617cf52216be01c72/test_coverage)](https://codeclimate.com/github/shivabhusal/quote_api_7/test_coverage)
 # Quote
 
 This app responds with a random quote everytime the API is hit.
@@ -41,6 +43,9 @@ url	"http://example.com/quote.json"
 ## Rails App Basic Architecture
   ![Rails App architecture](https://raw.githubusercontent.com/mdang/resources/master/ruby/rails/rails_architecture.png)
 
+## UML Class Diagram
+![class-diagram.png](class-diagram.png)
+
 ---
 
 ## Some Important Details
@@ -52,16 +57,22 @@ url	"http://example.com/quote.json"
     - Postgresql Database
 
 * Configuration
+    - Seed data before running the app
+    ```ruby
+        rails db:seed
+    ```
 
 * Database creation/initialization
 
-```bash
-    rails db:setup
-```
+    ```bash
+        rails db:setup
+    ```
 
 * How to run the test suite
-```bash
-    bin/rspec spec
-```
+    ```bash
+        bin/rspec spec
+    ```
 
 * Deployment instructions
+  - to deploy to heroku, follow the following link
+  - https://devcenter.heroku.com/articles/getting-started-with-rails6
