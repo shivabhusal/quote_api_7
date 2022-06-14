@@ -1,0 +1,178 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/shiva/Projects/quote_api_7/spec/support/db_cleaner.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/shiva/Projects/quote_api_7/spec/support/factory_bot.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/shiva/Projects/quote_api_7/spec/models/quote_spec.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          100,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/shiva/Projects/quote_api_7/app/models/quote.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          10,
+          10,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/shiva/Projects/quote_api_7/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/shiva/Projects/quote_api_7/spec/requests/quotes_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          5,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          99,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/shiva/Projects/quote_api_7/spec/routing/quotes_routing_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/shiva/Projects/quote_api_7/app/controllers/quotes_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          6,
+          null,
+          null
+        ]
+      },
+      "/Users/shiva/Projects/quote_api_7/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1655222688
+  }
+}
