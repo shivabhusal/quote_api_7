@@ -1,12 +1,12 @@
-<div id="<%= dom_id quote %>">
-  <p>
-    <strong>Title:</strong>
-    <%= quote.title %>
-  </p>
-
-  <p>
-    <strong>Author:</strong>
-    <%= quote.author %>
-  </p>
-
+<div class="card">
+  <div class="card-body">
+    <figure>
+      <blockquote class="blockquote">
+        <p><%= quote.title %></p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        <%= quote.author %>
+      </figcaption>
+    </figure>
+  </div>
 </div>
