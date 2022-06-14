@@ -6,11 +6,6 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-records = File.foreach(Rails.root.join('db/quotes.csv')).map.with_index do |line, i|
-  next if i == 0
-  title, author = line.chomp.split(',')
-  {
-    id: i, title: title, author: author
-  }
-end
-Quote.upsert_all(records[1..-1])
+require 'csv'
+
+DataFeeder.work
